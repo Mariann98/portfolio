@@ -1,4 +1,4 @@
-@import url('https://use.typekit.net/yrm2sft.css');
+@import url("https://use.typekit.net/yrm2sft.css");
 
 * {
   margin: 0px;
@@ -111,34 +111,35 @@ ul {
 }
 
 .about_me_right {
-  margin: 10px 140px 0px 0px;
+  margin: 0.5em 6em 0em 0em;
   flex: 1;
 }
 
 footer {
   background-color: #202020;
-  height: 250px;
+  height: 3em;
   width: 100% auto;
 }
 .contact p {
   text-align: center;
-  font-size: 25px;
-  margin: 20px;
+  font-size: 1.25em;
+  margin: 2em;
   color: white;
+  padding-bottom: 1em;
 }
 .contact h2 {
   font-family: novecento-sans-wide, sans-serif;
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  font-size: 40px;
+  font-size: 2em;
   color: white;
-  padding-top: 20px;
+  padding-top: 1em;
 }
 
 .portfolio_wrapper {
   display: flex;
-  height: 800px;
+  height: 45em;
   justify-content: center;
 }
 .portfolio_wrapper_left {
@@ -171,12 +172,12 @@ footer {
 }
 button {
   background-color: transparent;
-  border-radius: 30px;
-  border-width: 5px;
+  border-radius: 2em;
+  border-width: 0.25em;
   border-color: white;
   color: white;
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 1em;
+  padding: 0.5em 1em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -185,22 +186,11 @@ button {
 }
 .view_button h5 {
   color: white;
-  font-size: 40px;
+  font-size: 2.5em;
   top: 30%;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-@media (min-width: 640px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 1024px) {
-}
-@media (min-width: 1280px) {
-}
-@media (min-width: 1536px) {
 }

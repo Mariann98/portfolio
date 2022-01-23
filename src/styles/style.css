@@ -1,0 +1,29 @@
+@import url("https://use.typekit.net/yrm2sft.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: futura-pt, sans-serif;
+  color: white;
+  background-color: #202020;
+}
+
+.logo {
+  width: 10em;
+  height: 10em;
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}
