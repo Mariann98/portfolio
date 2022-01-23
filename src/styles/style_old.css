@@ -11,16 +11,6 @@ body {
   color: white;
   background-color: #202020;
 }
-h1 {
-  font-family: novecento-sans-wide, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  font-size: 6em;
-  padding-top: 2.25em;
-  padding-bottom: 1em;
-  background-color: #202020;
-}
 
 .header {
   display: flex;
@@ -92,7 +82,16 @@ ul {
   font-style: normal;
   font-size: 1.5em;
 }
-
+h1 {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 6em;
+  padding-top: 2.25em;
+  padding-bottom: 1em;
+  background-color: #202020;
+}
 .about_me {
   display: flex;
   align-items: center;

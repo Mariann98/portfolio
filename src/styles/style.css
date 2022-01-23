@@ -1,22 +1,122 @@
 @import url("https://use.typekit.net/yrm2sft.css");
 
+:root {
+  --pink: #ae8094;
+  --black: #202020;
+}
+
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 body {
   font-family: futura-pt, sans-serif;
   color: white;
-  background-color: #202020;
+  background-color: var(--black);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.navbar_left {
+  font-family: mina, serif;
+  text-align: center;
+  font-size: 0.75em;
+  color: var(--pink);
+}
+.navbar_right {
+  display: none;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35em;
 }
 
 .logo {
   width: 10em;
   height: 10em;
+  margin: 2em;
+}
+.intro p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: 17em;
 }
 
+.color {
+  color: var(--pink);
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 2em;
+}
+.profile_picture {
+  height: 10em;
+  width: 10em;
+  margin-top: 3em;
+}
+.about_me p {
+  max-width: 20em;
+  margin: 1em 0 3em 0;
+}
+
+.portfolio {
+  display: block;
+  align-items: center;
+}
+.portfolio_image {
+  width: 100%;
+  height: auto;
+}
+.view_button {
+  transition: 0.5s ease;
+  opacity: 0;
+  text-align: center;
+  font-family: novecento-sans-wide, sans-serif;
+}
+button {
+  background-color: transparent;
+  border-radius: 2em;
+  border-width: 0.25em;
+  border-color: white;
+  color: white;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.view_button h5 {
+  color: white;
+  font-size: 2.5em;
+  top: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+@media (min-width: 360px) {
+}
 @media (min-width: 640px) {
 }
 @media (min-width: 768px) {
