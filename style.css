@@ -1,0 +1,206 @@
+@import url('https://use.typekit.net/yrm2sft.css');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: futura-pt, sans-serif;
+  color: white;
+  background-color: #202020;
+}
+h1 {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 6em;
+  padding-top: 2.25em;
+  padding-bottom: 1em;
+  background-color: #202020;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+  background-color: #202020;
+}
+.navbar_left {
+  font-family: mina, serif;
+  text-align: left;
+  font-size: 1em;
+  white-space: nowrap;
+  margin-left: 6em;
+  color: #ae8094;
+}
+.navbar_right {
+  margin-right: 6em;
+}
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.5em;
+  margin: 1.5em;
+}
+ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.navbar_right a:hover {
+  color: #ae8094;
+}
+
+.mainpage {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 50em;
+  width: 100% auto;
+  background-color: #202020;
+}
+
+.mainpage_left {
+  margin: 5em 0.5em 0em 6em;
+}
+.mainpage_right h6 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  text-align: start;
+  margin: 3em 6em 0em 4em;
+  z-index: 3;
+  max-width: 17em;
+  min-width: 17em;
+}
+
+.color {
+  color: #ae8094;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.about_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45em;
+  width: 100% auto;
+  background-color: #202020;
+}
+
+.about_me_left {
+  text-align: left;
+  max-width: 40em;
+  font-size: 2em;
+  padding: 0em 6.25em 0em 6em;
+  flex: 1;
+}
+
+.about_me_right {
+  margin: 10px 140px 0px 0px;
+  flex: 1;
+}
+
+footer {
+  background-color: #202020;
+  height: 250px;
+  width: 100% auto;
+}
+.contact p {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+  color: white;
+}
+.contact h2 {
+  font-family: novecento-sans-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 20px;
+}
+
+.portfolio_wrapper {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+}
+.portfolio_wrapper_left {
+  position: relative;
+}
+
+.portfolio_wrapper_left:hover img {
+  opacity: 0.2;
+}
+
+.portfolio_wrapper_left:hover .view_button {
+  opacity: 1;
+}
+
+.portfolio_wrapper_right {
+  position: relative;
+}
+.portfolio_wrapper_right:hover img {
+  opacity: 0.2;
+}
+
+.portfolio_wrapper_right:hover .view_button {
+  opacity: 1;
+}
+.view_button {
+  transition: 0.5s ease;
+  opacity: 0;
+  text-align: center;
+  font-family: novecento-sans-wide, sans-serif;
+}
+button {
+  background-color: transparent;
+  border-radius: 30px;
+  border-width: 5px;
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.view_button h5 {
+  color: white;
+  font-size: 40px;
+  top: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}
