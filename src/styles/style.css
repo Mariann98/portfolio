@@ -75,6 +75,7 @@ h1 {
 .about_me p {
   max-width: 20em;
   margin: 1em 0 3em 0;
+  font-size: 1em;
 }
 
 .portfolio {
@@ -115,6 +116,19 @@ button {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+footer {
+  height: 3em;
+  width: 100% auto;
+}
+.contact p {
+  text-align: center;
+  font-size: 1em;
+  margin: 1em;
+
+  padding-bottom: 1em;
+}
+
 @media (min-width: 360px) {
 }
 @media (min-width: 640px) {
