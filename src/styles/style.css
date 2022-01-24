@@ -34,8 +34,8 @@ body {
 }
 
 .logo {
-  width: 10em;
-  height: 10em;
+  height: auto;
+  width: 100%;
   margin: 2em;
 }
 .intro p {
@@ -66,11 +66,11 @@ h1 {
   font-style: normal;
   text-align: center;
   font-size: 2em;
+  margin-bottom: 0.5em;
 }
 .profile_picture {
-  height: 10em;
-  width: 10em;
-  margin-top: 3em;
+  height: auto;
+  width: 100%;
 }
 .about_me p {
   max-width: 20em;
