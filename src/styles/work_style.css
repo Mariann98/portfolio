@@ -27,8 +27,16 @@ body {
   display: none;
 }
 .work {
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.work_wrapper_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   font-size: 2em;
@@ -44,7 +52,27 @@ h4 {
 p {
   font-size: 1em;
 }
-
+.icon {
+  height: auto;
+  width: 80%;
+  margin-top: 1em;
+}
+.pictures {
+  height: auto;
+  width: 80%;
+  margin: 1em 0 1em 0;
+}
+.project_selection_link {
+  margin: 2em 0 1em 0;
+  text-align: right;
+}
+.project_selection_link a {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--pink);
+  font-size: 1.1em;
+  font-weight: 600;
+}
 footer {
   height: 3em;
   width: 100% auto;
