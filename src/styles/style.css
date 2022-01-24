@@ -87,10 +87,7 @@ h1 {
   width: 100%;
   height: auto;
 }
-.view_link {
-  align-items: center;
-  justify-content: center;
-}
+
 .view_link a {
   text-decoration: none;
   list-style-type: none;
