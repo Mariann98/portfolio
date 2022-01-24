@@ -17,21 +17,17 @@ body {
   margin-right: 2em;
 }
 
-.navbar_left {
+.navbar_left a {
   font-family: mina, serif;
   text-align: center;
   font-size: 0.75em;
   color: var(--pink);
+  text-decoration: none;
 }
 .navbar_right {
   display: none;
 }
-.work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .work_wrapper_right {
   display: flex;
   flex-direction: column;
@@ -40,8 +36,8 @@ body {
 }
 h1 {
   font-size: 2em;
+  margin: 1em 0 0.5em 0;
   text-align: center;
-  margin: 1em 0 1em 0;
 }
 
 h4 {
@@ -62,10 +58,12 @@ p {
   width: 80%;
   margin: 1em 0 1em 0;
 }
-.project_selection_link {
+.project_selection_wrapper {
+  display: flex;
+  justify-content: space-between;
   margin: 2em 0 1em 0;
-  text-align: right;
 }
+
 .project_selection_link a {
   text-decoration: none;
   list-style-type: none;
@@ -73,9 +71,13 @@ p {
   font-size: 1.1em;
   font-weight: 600;
 }
+
 footer {
   height: 3em;
   width: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact p {
   text-align: center;
