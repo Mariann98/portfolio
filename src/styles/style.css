@@ -8,6 +8,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: futura-pt, sans-serif;
@@ -56,10 +58,11 @@ body {
   font-size: 1.25em;
 }
 
-.about_me {
+.about_me_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 h1 {
   font-family: novecento-sans-wide, sans-serif;
@@ -73,10 +76,11 @@ h1 {
 .profile_picture {
   height: auto;
   width: 80%;
+  margin: 2em;
 }
 .about_me p {
   max-width: 20em;
-  margin: 1em 0 3em 0;
+  margin-bottom: 3em;
   font-size: 1em;
 }
 
@@ -88,6 +92,9 @@ h1 {
 .portfolio_image {
   width: 100%;
   height: auto;
+}
+button {
+  display: none;
 }
 
 .view_link a {
@@ -107,17 +114,26 @@ footer {
 }
 
 @media (min-width: 360px) {
+  .navbar_left {
+    font-family: mina, serif;
+    text-align: center;
+    font-size: 1em;
+    color: var(--pink);
+  }
+  .navbar_right {
+    display: none;
+  }
   .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 35em;
+    height: 33em;
   }
 
   .logo {
     height: auto;
-    width: 80%;
-    margin: 2em;
+    width: 50%;
+    margin: 2em 0 2em 0;
   }
   .intro p {
     font-family: futura-pt, sans-serif;
@@ -137,28 +153,28 @@ footer {
     font-size: 1.25em;
   }
 
-  .about_me {
+  .about_me_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-    text-align: center;
-    font-size: 2em;
+    font-size: 2.75em;
     margin-bottom: 0.5em;
     margin-top: 1em;
   }
-  .profile_picture {
+  .about_me_wrapper img {
+    width: 60%;
     height: auto;
-    width: 80%;
   }
-  .about_me p {
-    max-width: 20em;
-    margin: 1em 0 3em 0;
-    font-size: 1em;
+  .about_me_text {
+    max-width: 26em;
+    margin-bottom: 3em;
+    font-size: 1.25em;
   }
 
   .portfolio {
@@ -176,6 +192,171 @@ footer {
     list-style-type: none;
     color: var(--pink);
   }
+  button {
+    display: none;
+  }
+  footer {
+    height: 3em;
+    width: 100% auto;
+  }
+  .contact p {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 1em;
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 640px) {
+  .navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: baseline;
+    top: 0px;
+    z-index: 5;
+    background-color: var(--black);
+  }
+  .navbar_left {
+    font-family: mina, serif;
+    text-align: left;
+    margin-top: 1em;
+    font-size: 0.75em;
+    color: var(--pink);
+  }
+  .navbar_right {
+    display: block;
+  }
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 1em;
+  }
+  ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .navbar_right a:hover {
+    color: var(--pink);
+  }
+  .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+  }
+
+  .logo {
+    height: auto;
+    width: 40%;
+    /* margin: 2em 0 2em 0; */
+  }
+  .intro p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6em;
+    text-align: center;
+    max-width: 17em;
+    /* margin-bottom: 2em; */
+  }
+
+  .color {
+    color: var(--pink);
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25em;
+  }
+
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  .about_me_wrapper img {
+    height: auto;
+    width: 90%;
+  }
+  .about_me p {
+    max-width: 40em;
+    font-size: 1em;
+  }
+
+  .portfolio_wrapper {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio_wrapper_left {
+    position: relative;
+  }
+
+  .portfolio_wrapper_left:hover img {
+    opacity: 0.2;
+  }
+
+  .portfolio_wrapper_left:hover .view_button {
+    opacity: 1;
+  }
+
+  .portfolio_wrapper_right {
+    position: relative;
+  }
+  .portfolio_wrapper_right:hover img {
+    opacity: 0.2;
+  }
+
+  .portfolio_wrapper_right:hover .view_button {
+    opacity: 1;
+  }
+  .view_button {
+    transition: 0.5s ease;
+    opacity: 0;
+    text-align: center;
+    font-family: novecento-sans-wide, sans-serif;
+  }
+  button {
+    background-color: transparent;
+    border-radius: 0.5em;
+    border-width: 0.25em;
+    border-color: white;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .view_button h5 {
+    color: white;
+    font-size: 1em;
+    top: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
   footer {
     height: 3em;
     width: 100% auto;
@@ -187,9 +368,171 @@ footer {
     padding-bottom: 1em;
   }
 }
-@media (min-width: 640px) {
-}
 @media (min-width: 768px) {
+  body {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: baseline;
+    top: 0px;
+    z-index: 5;
+    background-color: var(--black);
+  }
+  .navbar_left {
+    font-family: mina, serif;
+    text-align: left;
+    margin-top: 1em;
+    font-size: 0.75em;
+    color: var(--pink);
+  }
+  .navbar_right {
+    display: block;
+  }
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 1em;
+  }
+  ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .navbar_right a:hover {
+    color: var(--pink);
+  }
+  .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+  }
+
+  .logo {
+    height: auto;
+    width: 40%;
+    /* margin: 2em 0 2em 0; */
+  }
+  .intro p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6em;
+    text-align: center;
+    max-width: 17em;
+    /* margin-bottom: 2em; */
+  }
+
+  .color {
+    color: var(--pink);
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25em;
+  }
+
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  .about_me_wrapper img {
+    height: auto;
+    width: 90%;
+  }
+  .about_me p {
+    max-width: 40em;
+    font-size: 1em;
+  }
+
+  .portfolio_wrapper {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio_wrapper_left {
+    position: relative;
+  }
+
+  .portfolio_wrapper_left:hover img {
+    opacity: 0.2;
+  }
+
+  .portfolio_wrapper_left:hover .view_button {
+    opacity: 1;
+  }
+
+  .portfolio_wrapper_right {
+    position: relative;
+  }
+  .portfolio_wrapper_right:hover img {
+    opacity: 0.2;
+  }
+
+  .portfolio_wrapper_right:hover .view_button {
+    opacity: 1;
+  }
+  .view_button {
+    transition: 0.5s ease;
+    opacity: 0;
+    text-align: center;
+    font-family: novecento-sans-wide, sans-serif;
+  }
+  button {
+    background-color: transparent;
+    border-radius: 0.5em;
+    border-width: 0.25em;
+    border-color: white;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .view_button h5 {
+    color: white;
+    font-size: 1.5em;
+    top: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  footer {
+    height: 3em;
+    width: 100% auto;
+  }
+  .contact p {
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+    padding-bottom: 1em;
+  }
 }
 @media (min-width: 1024px) {
 }

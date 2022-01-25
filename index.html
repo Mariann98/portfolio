@@ -13,7 +13,7 @@
       <div class="navbar_left">
         <h2 class="name">Mariann Alber</h2>
       </div>
-      <div class="navbar_right" style="width: 100%">
+      <div class="navbar_right">
         <ul class="navbar-list">
           <li><a href="#home">Home</a></li>
           <li><a href="#about-me">About me</a></li>
@@ -32,19 +32,27 @@
       </p>
     </div>
     <main>
+      <!-- <div class="about_me_wrapper"> -->
       <div class="about_me">
         <h1>About me</h1>
-        <img src="public/pictures/meS.png" class="profile_picture" alt="me" />
-        <p>
-          I am a first-year student at The Hague University of Applied Sciences, majoring in UX
-          Design. I come from a small country by the Baltic sea - Estonia, which is known for being
-          digitally advanced. <br /><br />I have always known that I want to work in the IT field
-          but I never knew in what role, till I found out about UX and UI design which sparked my
-          interest immediately. Since the beginning of 2020, I started to develop my UI skills by
-          creating different apps that would benefit my family and myself. You can read more about
-          them in my portfolio. <br /><br />During my studies in the university, I have developed my
-          skills in research and programming which has given me a new perspective on UX design.
-        </p>
+        <div class="about_me_wrapper">
+          <div class="wrapper_right">
+            <img src="public/pictures/meS.png" class="profile_picture" alt="me" />
+          </div>
+          <div class="wrapper_left">
+            <p class="about_me_text">
+              I am a first-year student at The Hague University of Applied Sciences, majoring in UX
+              Design. I come from a small country by the Baltic sea - Estonia, which is known for
+              being digitally advanced. <br /><br />I have always known that I want to work in the
+              IT field but I never knew in what role, till I found out about UX and UI design which
+              sparked my interest immediately. Since the beginning of 2020, I started to develop my
+              UI skills by creating different apps that would benefit my family and myself. You can
+              read more about them in my portfolio. <br /><br />During my studies in the university,
+              I have developed my skills in research and programming which has given me a new
+              perspective on UX design.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div class="portfolio">
@@ -54,12 +62,20 @@
             <a href="/src/pages/sportflex.html">
               <img class="portfolio_image" src="public/pictures/sportflex.png" alt="sportflex" />
             </a>
+            <div class="view_button">
+              <h5>SportFlex</h5>
+              <a href="/src/pages/sportflex.html"><button>View</button></a>
+            </div>
           </div>
 
           <div class="portfolio_wrapper_right">
             <a href="/src/pages/itsdoggotime.html">
               <img class="portfolio_image" src="public/pictures/itsdoggotime.png" alt="doggomockup"
             /></a>
+            <div class="view_button">
+              <h5>It's doggo time</h5>
+              <a href="/src/pages/itsdoggotime.html"><button>View</button></a>
+            </div>
           </div>
         </div>
 
@@ -68,6 +84,10 @@
             <a href="/src/pages/giftfromafar.html">
               <img class="portfolio_image" src="public/pictures/giftfromafar.png" alt="gifting" />
             </a>
+            <div class="view_button">
+              <h5>Gift from afar</h5>
+              <a href="/src/pages/giftfromafar.html"><button>View</button></a>
+            </div>
           </div>
 
           <div class="portfolio_wrapper_right">
@@ -78,6 +98,10 @@
                 alt="citymockup"
               />
             </a>
+            <div class="view_button">
+              <h5>Claim the city</h5>
+              <a href="/src/pages/claimthecity.html"><button>View</button></a>
+            </div>
           </div>
         </div>
       </div>
