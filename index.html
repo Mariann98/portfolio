@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariann's portfolio</title>
     <link rel="shortcut icon" href="public/pictures/logo1.png" />
-    <link href="src/styles/style.css" rel="stylesheet" />
+    <link href="portfolio/styles/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -15,8 +15,8 @@
       </div>
       <div class="navbar_right">
         <ul class="navbar-list">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/index.html #about_me">About me</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About me</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -33,7 +33,7 @@
     </div>
     <main>
       <!-- <div class="about_me_wrapper"> -->
-      <div class="about_me">
+      <div class="about_me" id="about-me">
         <h1>About me</h1>
         <div class="about_me_wrapper">
           <div class="wrapper_right">
@@ -55,58 +55,66 @@
         </div>
       </div>
 
-      <div class="portfolio">
+      <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <div class="portfolio_wrapper">
           <div class="portfolio_wrapper_left">
-            <a href="/src/pages/sportflex.html">
+            <a href="portfolio/pages/sportflex.html">
               <img class="portfolio_image" src="public/pictures/sportflex.png" alt="sportflex" />
             </a>
-            <div class="view_button">
+            <div class="view">
               <h5>SportFlex</h5>
-              <a href="/src/pages/sportflex.html"><button>View</button></a>
+              <a href="/portfolio/pages/sportflex.html"
+                ><button class="view_button">View</button></a
+              >
             </div>
           </div>
 
           <div class="portfolio_wrapper_right">
-            <a href="/src/pages/itsdoggotime.html">
+            <a href="/portfolio/pages/itsdoggotime.html">
               <img class="portfolio_image" src="public/pictures/itsdoggotime.png" alt="doggomockup"
             /></a>
-            <div class="view_button">
+            <div class="view">
               <h5>It's doggo time</h5>
-              <a href="/src/pages/itsdoggotime.html"><button>View</button></a>
+              <a href="/portfolio/pages/itsdoggotime.html"
+                ><button class="view_button">View</button></a
+              >
             </div>
           </div>
         </div>
 
         <div class="portfolio_wrapper">
           <div class="portfolio_wrapper_left">
-            <a href="/src/pages/giftfromafar.html">
+            <a href="/portfolio/pages/giftfromafar.html">
               <img class="portfolio_image" src="public/pictures/giftfromafar.png" alt="gifting" />
             </a>
-            <div class="view_button">
+            <div class="view">
               <h5>Gift from afar</h5>
-              <a href="/src/pages/giftfromafar.html"><button>View</button></a>
+              <a href="/portfolio/pages/giftfromafar.html"
+                ><button class="view_button">View</button></a
+              >
             </div>
           </div>
 
           <div class="portfolio_wrapper_right">
-            <a href="/src/pages/claimthecity.html">
+            <a href="/portfolio/pages/claimthecity.html">
               <img
                 class="portfolio_image"
                 src="public/pictures/claimthecity.png"
                 alt="citymockup"
               />
             </a>
-            <div class="view_button">
+            <div class="view">
               <h5>Claim the city</h5>
-              <a href="/src/pages/claimthecity.html"><button>View</button></a>
+              <a href="/portfolio/pages/claimthecity.html"
+                ><button class="view_button">View</button></a
+              >
             </div>
           </div>
         </div>
       </div>
 
-      <footer class="contact">
+      <footer class="contact" id="contact">
         <h1>Contact</h1>
         <p>
           Feel free to reach out if you want to have me as your new intern, or simply have a chat.
