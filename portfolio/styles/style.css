@@ -597,7 +597,7 @@ footer {
     font-weight: 500;
     font-style: normal;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     max-width: 17em;
     /* margin-bottom: 2em; */
   }
@@ -621,17 +621,18 @@ footer {
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    font-size: 3em;
-    margin-bottom: 1em;
+    font-size: 3.9em;
     margin-top: 1em;
   }
   .about_me_wrapper img {
     height: auto;
     width: 100%;
+    margin: 1em;
   }
   .about_me p {
     max-width: 40em;
     font-size: 1.4em;
+    margin: 1em;
   }
 
   .portfolio_wrapper {
@@ -764,7 +765,7 @@ footer {
     font-weight: 500;
     font-style: normal;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     max-width: 17em;
     /* margin-bottom: 2em; */
   }
