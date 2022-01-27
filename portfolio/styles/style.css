@@ -252,7 +252,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 30em;
+    height: 100vh;
   }
 
   .logo {
@@ -419,7 +419,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 40em;
+    height: 100vh;
   }
 
   .logo {
@@ -583,7 +583,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 35em;
+    height: 100vh;
   }
 
   .logo {
@@ -615,9 +615,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  #about_me {
-    height: 40em;
-  }
+
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -754,13 +752,12 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 60em;
+    height: 120vh;
   }
 
   .logo {
     height: auto;
     width: 30%;
-    /* margin: 2em 0 2em 0; */
   }
   .intro p {
     font-family: futura-pt, sans-serif;
@@ -769,7 +766,6 @@ footer {
     font-size: 3em;
     text-align: left;
     max-width: 17em;
-    /* margin-bottom: 2em; */
   }
 
   .color {
@@ -786,9 +782,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  #about_me {
-    height: 50em;
-  }
+
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
