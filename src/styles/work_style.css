@@ -62,13 +62,12 @@ p {
   justify-content: center;
   margin-top: 2em;
 }
-.work_wrapper_main_left {
-  width: 80%;
-}
-.work_wrapper_main_right {
+.icon {
   height: auto;
-  width: 80%;
+  width: 60%;
+  margin-top: 1em;
 }
+
 .work_wrapper_problem {
   width: 100;
   font-size: 1em;
@@ -83,12 +82,6 @@ p {
 video {
   width: 100%;
   height: auto;
-}
-
-.icon {
-  height: auto;
-  width: 60%;
-  margin-top: 1em;
 }
 
 .pictures {
