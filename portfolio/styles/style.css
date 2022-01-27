@@ -1,8 +1,8 @@
 @import url("https://use.typekit.net/yrm2sft.css");
 
 :root {
-  --pink: #ae8094;
-  --black: #202020;
+  --purple1: #ae8094;
+  --dark1: #202020;
 }
 
 * {
@@ -14,7 +14,7 @@
 body {
   font-family: futura-pt, sans-serif;
   color: white;
-  background-color: var(--black);
+  background-color: var(--dark1);
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -23,7 +23,7 @@ body {
   font-family: mina, serif;
   text-align: center;
   font-size: 0.75em;
-  color: var(--pink);
+  color: var(--purple1);
 }
 .navbar_right {
   display: none;
@@ -51,7 +51,7 @@ body {
 }
 
 .color {
-  color: var(--pink);
+  color: var(--purple1);
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -102,7 +102,7 @@ h1 {
 .view_link a {
   text-decoration: none;
   list-style-type: none;
-  color: var(--pink);
+  color: var(--purple1);
 }
 footer {
   height: 3em;
@@ -120,7 +120,7 @@ footer {
     font-family: mina, serif;
     text-align: center;
     font-size: 1em;
-    color: var(--pink);
+    color: var(--purple1);
   }
 
   .intro {
@@ -146,7 +146,7 @@ footer {
   }
 
   .color {
-    color: var(--pink);
+    color: var(--purple1);
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -194,7 +194,7 @@ footer {
   .view_link a {
     text-decoration: none;
     list-style-type: none;
-    color: var(--pink);
+    color: var(--purple1);
   }
   .view_button {
     display: none;
@@ -218,14 +218,14 @@ footer {
     align-items: baseline;
     top: 0px;
     z-index: 5;
-    background-color: var(--black);
+    background-color: var(--dark1);
   }
   .navbar_left {
     font-family: mina, serif;
     text-align: left;
     margin-top: 1em;
     font-size: 0.75em;
-    color: var(--pink);
+    color: var(--purple1);
   }
   .navbar_right {
     display: block;
@@ -246,7 +246,7 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--pink);
+    color: var(--purple1);
   }
   .intro {
     display: flex;
@@ -272,7 +272,7 @@ footer {
   }
 
   .color {
-    color: var(--pink);
+    color: var(--purple1);
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -385,14 +385,14 @@ footer {
     align-items: baseline;
     top: 0px;
     z-index: 5;
-    background-color: var(--black);
+    background-color: var(--dark1);
   }
   .navbar_left {
     font-family: mina, serif;
     text-align: left;
     margin-top: 1em;
     font-size: 0.75em;
-    color: var(--pink);
+    color: var(--purple1);
   }
   .navbar_right {
     display: block;
@@ -413,7 +413,7 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--pink);
+    color: var(--purple1);
   }
   .intro {
     display: flex;
@@ -440,7 +440,7 @@ footer {
   }
 
   .color {
-    color: var(--pink);
+    color: var(--purple1);
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -549,14 +549,14 @@ footer {
     align-items: baseline;
     top: 0px;
     z-index: 5;
-    background-color: var(--black);
+    background-color: var(--dark1);
   }
   .navbar_left {
     font-family: mina, serif;
     text-align: left;
     margin-top: 1em;
     font-size: 0.75em;
-    color: var(--pink);
+    color: var(--purple1);
   }
   .navbar_right {
     display: block;
@@ -577,7 +577,7 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--pink);
+    color: var(--purple1);
   }
   .intro {
     display: flex;
@@ -603,7 +603,7 @@ footer {
   }
 
   .color {
-    color: var(--pink);
+    color: var(--purple1);
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -719,14 +719,14 @@ footer {
     align-items: baseline;
     top: 0px;
     z-index: 5;
-    background-color: var(--black);
+    background-color: var(--dark1);
   }
   .navbar_left {
     font-family: mina, serif;
     text-align: left;
     margin-top: 1em;
     font-size: 1em;
-    color: var(--pink);
+    color: var(--purple1);
   }
 
   li a {
@@ -745,7 +745,7 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--pink);
+    color: var(--purple1);
   }
   .intro {
     display: flex;
@@ -771,7 +771,7 @@ footer {
   }
 
   .color {
-    color: var(--pink);
+    color: var(--purple1);
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
