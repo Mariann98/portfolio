@@ -63,7 +63,11 @@ p {
   justify-content: center;
   margin-top: 2em;
 }
-
+.work_wrapper_main_right img {
+  height: auto;
+  width: 100%;
+  margin-top: 1em;
+}
 .work_wrapper_problem {
   width: 100;
   font-size: 1em;
