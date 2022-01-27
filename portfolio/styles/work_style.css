@@ -65,7 +65,10 @@ p {
   width: 60%;
   margin-top: 1em;
 }
-
+video {
+  width: 100%;
+  height: auto;
+}
 .pictures {
   height: auto;
   width: 80%;
@@ -83,7 +86,6 @@ p {
 
 .project_selection_link a {
   text-decoration: none;
-  list-style-type: none;
   color: var(--pink);
   font-size: 1.1em;
   font-weight: 600;
@@ -210,6 +212,10 @@ footer p {
     height: auto;
     width: 100%;
   }
+  video {
+    width: 100%;
+    height: auto;
+  }
   .project_selection_wrapper {
     display: flex;
     justify-content: space-between;
@@ -223,7 +229,6 @@ footer p {
   .project_selection_link,
   .project_selection_link_next a {
     text-decoration: none;
-    list-style-type: none;
     color: var(--pink);
     font-size: 1.2em;
     font-weight: 600;
@@ -351,6 +356,10 @@ footer p {
     width: 100%;
     margin: 1em;
   }
+  video {
+    width: 100%;
+    height: auto;
+  }
   .project_selection_wrapper {
     display: flex;
     justify-content: space-between;
@@ -364,7 +373,6 @@ footer p {
   .project_selection_link,
   .project_selection_link_next a {
     text-decoration: none;
-    list-style-type: none;
     color: var(--pink);
     font-size: 1.2em;
     font-weight: 600;
@@ -455,6 +463,16 @@ footer p {
     width: 100%;
     margin: 1em;
   }
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .xd_link {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
   .project_selection_wrapper {
     display: flex;
     justify-content: space-between;
@@ -468,7 +486,7 @@ footer p {
   .project_selection_link,
   .project_selection_link_next a {
     text-decoration: none;
-    list-style-type: none;
+
     color: var(--pink);
     font-size: 1.2em;
     font-weight: 600;
@@ -592,6 +610,10 @@ footer p {
     height: auto;
     width: 100%;
   }
+  video {
+    width: 100%;
+    height: auto;
+  }
   .project_selection_wrapper {
     display: flex;
     justify-content: space-between;
@@ -605,7 +627,6 @@ footer p {
   .project_selection_link,
   .project_selection_link_next a {
     text-decoration: none;
-    list-style-type: none;
     color: var(--pink);
     font-size: 1.2em;
     font-weight: 600;
@@ -659,5 +680,9 @@ footer p {
   }
   .navbar_right a:hover {
     color: var(--pink);
+  }
+  video {
+    width: 100%;
+    height: auto;
   }
 }
