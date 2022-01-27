@@ -56,13 +56,6 @@ body {
   font-style: normal;
   font-size: 1.25em;
 }
-
-.about_me_wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 h1 {
   font-family: novecento-sans-wide, sans-serif;
   font-weight: 500;
@@ -72,6 +65,13 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 1em;
 }
+.about_me_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .profile_picture {
   height: auto;
   width: 80%;
@@ -104,7 +104,6 @@ h1 {
   color: var(--purple1);
 }
 footer {
-  height: 3em;
   width: 100% auto;
 }
 .contact p {
@@ -151,13 +150,6 @@ footer {
     font-style: normal;
     font-size: 1.25em;
   }
-
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -166,6 +158,13 @@ footer {
     margin-bottom: 0.5em;
     margin-top: 1em;
   }
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about_me_wrapper img {
     width: 60%;
     height: auto;
@@ -199,7 +198,6 @@ footer {
     display: none;
   }
   footer {
-    height: 3em;
     width: 100% auto;
   }
   .contact p {
@@ -246,6 +244,7 @@ footer {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   .intro {
     display: flex;
@@ -277,13 +276,6 @@ footer {
     font-style: normal;
     font-size: 1.25em;
   }
-
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -293,6 +285,13 @@ footer {
     margin-bottom: 0.5em;
     margin-top: 1em;
   }
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about_me_wrapper img {
     height: auto;
     width: 90%;
@@ -331,7 +330,7 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 1s ease;
+    transition: 0.6s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
@@ -413,6 +412,7 @@ footer {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   .intro {
     display: flex;
@@ -425,7 +425,6 @@ footer {
   .logo {
     height: auto;
     width: 35%;
-    /* margin: 2em 0 2em 0; */
   }
   .intro p {
     font-family: futura-pt, sans-serif;
@@ -435,7 +434,6 @@ footer {
     text-align: left;
     max-width: 17em;
     margin-left: 2em;
-    /* margin-bottom: 2em; */
   }
 
   .color {
@@ -444,13 +442,6 @@ footer {
     font-weight: 500;
     font-style: normal;
     font-size: 1.25em;
-  }
-
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
   }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
@@ -461,6 +452,13 @@ footer {
     margin-bottom: 1em;
     margin-top: 1em;
   }
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about_me_wrapper img {
     height: auto;
     width: 90%;
@@ -499,7 +497,7 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 1s ease;
+    transition: 0.6s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
@@ -519,6 +517,11 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  .view_button:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    color: #202020;
   }
   .view h5 {
     color: white;
@@ -577,6 +580,7 @@ footer {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   .intro {
     display: flex;
@@ -589,7 +593,6 @@ footer {
   .logo {
     height: auto;
     width: 30%;
-    /* margin: 2em 0 2em 0; */
   }
   .intro p {
     font-family: futura-pt, sans-serif;
@@ -598,7 +601,6 @@ footer {
     font-size: 2em;
     text-align: left;
     max-width: 17em;
-    /* margin-bottom: 2em; */
   }
 
   .color {
@@ -608,14 +610,6 @@ footer {
     font-style: normal;
     font-size: 1.25em;
   }
-
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -623,6 +617,12 @@ footer {
     text-align: center;
     font-size: 3.9em;
     margin-top: 1em;
+  }
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
   }
   .about_me_wrapper img {
     height: auto;
@@ -641,6 +641,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .portfolio_wrapper_left {
     position: relative;
   }
@@ -664,7 +665,7 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 1s ease;
+    transition: 0.6s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
@@ -684,6 +685,12 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .view_button:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    color: #202020;
   }
   .view h5 {
     color: white;
@@ -706,12 +713,6 @@ footer {
   }
 }
 @media (min-width: 1536px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
   .navbar {
     display: flex;
     position: sticky;
@@ -746,6 +747,7 @@ footer {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   .intro {
     display: flex;
@@ -775,14 +777,6 @@ footer {
     font-style: normal;
     font-size: 1.25em;
   }
-
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -792,6 +786,13 @@ footer {
     margin-bottom: 1em;
     margin-top: 1em;
   }
+  .about_me_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about_me_wrapper img {
     height: auto;
     width: 90%;
@@ -830,7 +831,7 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 1s ease;
+    transition: 0.6s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
@@ -850,6 +851,11 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  .view_button:hover {
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    color: #202020;
   }
   .view h5 {
     color: white;

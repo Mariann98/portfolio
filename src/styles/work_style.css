@@ -142,6 +142,7 @@ footer p {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
@@ -288,6 +289,7 @@ footer p {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
@@ -545,6 +547,7 @@ footer p {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
 
   h1 {
@@ -686,6 +689,7 @@ footer p {
   }
   .navbar_right a:hover {
     color: var(--purple1);
+    transition: 0.5s;
   }
   video {
     width: 100%;
