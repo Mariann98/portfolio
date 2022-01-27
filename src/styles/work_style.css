@@ -55,7 +55,7 @@ h5 {
 p {
   font-size: 1em;
 }
-.work_wrapper_main_right {
+.work_wrapper_main {
   display: flex;
   flex-direction: column;
   align-items: center;
