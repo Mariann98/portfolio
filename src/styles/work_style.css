@@ -60,16 +60,36 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 2em;
 }
+.work_wrapper_main_left {
+  width: 80%;
+}
+.work_wrapper_main_right {
+  height: auto;
+  width: 80%;
+}
+.work_wrapper_problem {
+  width: 100;
+}
+.work_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
 .icon {
   height: auto;
   width: 60%;
   margin-top: 1em;
 }
-video {
-  width: 100%;
-  height: auto;
-}
+
 .pictures {
   height: auto;
   width: 80%;
