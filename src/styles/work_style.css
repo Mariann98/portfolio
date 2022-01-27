@@ -71,6 +71,7 @@ p {
 }
 .work_wrapper_problem {
   width: 100;
+  font-size: 1em;
 }
 .work_wrapper {
   display: flex;
