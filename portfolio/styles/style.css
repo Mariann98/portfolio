@@ -583,7 +583,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 40em;
+    height: 60em;
   }
 
   .logo {
@@ -614,6 +614,9 @@ footer {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+  }
+  #about_me {
+    height: 50em;
   }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
@@ -686,7 +689,7 @@ footer {
   }
   .view h5 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.8em;
     top: 30%;
     position: absolute;
     top: 40%;
@@ -751,7 +754,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 40em;
+    height: 60em;
   }
 
   .logo {
@@ -763,7 +766,7 @@ footer {
     font-family: futura-pt, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2em;
+    font-size: 3em;
     text-align: left;
     max-width: 17em;
     /* margin-bottom: 2em; */
@@ -783,12 +786,15 @@ footer {
     align-items: center;
     justify-content: center;
   }
+  #about_me {
+    height: 50em;
+  }
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     margin-bottom: 1em;
     margin-top: 1em;
   }
@@ -797,8 +803,8 @@ footer {
     width: 90%;
   }
   .about_me p {
-    max-width: 40em;
-    font-size: 1.5em;
+    max-width: 30em;
+    font-size: 2.1em;
   }
 
   .portfolio_wrapper {
@@ -853,7 +859,7 @@ footer {
   }
   .view h5 {
     color: white;
-    font-size: 1.8em;
+    font-size: 2em;
     top: 30%;
     position: absolute;
     top: 40%;
@@ -866,7 +872,7 @@ footer {
   }
   .contact p {
     text-align: center;
-    font-size: 1em;
+    font-size: 2.1em;
     margin: 1em;
     padding-bottom: 1em;
   }

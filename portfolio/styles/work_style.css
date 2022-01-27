@@ -506,6 +506,11 @@ footer p {
   }
 }
 @media (min-width: 1280px) {
+  body {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
   .navbar {
     display: flex;
     position: sticky;
@@ -541,10 +546,7 @@ footer p {
   .navbar_right a:hover {
     color: var(--pink);
   }
-  body {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
+
   h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
@@ -641,11 +643,15 @@ footer p {
   }
   footer p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding-bottom: 1em;
   }
 }
 @media (min-width: 1536px) {
+  body {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
   .navbar {
     display: flex;
     position: sticky;
@@ -684,5 +690,104 @@ footer p {
   video {
     width: 100%;
     height: auto;
+  }
+  h1 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  h4 {
+    display: flex;
+    font-size: 2em;
+    color: var(--pink);
+    margin-top: 1em;
+    justify-content: left;
+  }
+  h5 {
+    display: flex;
+    font-size: 2em;
+    color: var(--pink);
+    margin-top: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+  p {
+    font-size: 1.7em;
+  }
+  .work_wrapper_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  .work_wrapper_main_left {
+    width: 80%;
+  }
+  .work_wrapper_main_right {
+    height: auto;
+    width: 80%;
+  }
+  .work_wrapper_problem {
+    width: 100;
+  }
+  .work_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .work_wrapper_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .work_wrapper_left {
+    height: auto;
+    width: 100%;
+  }
+  .work_wrapper_right {
+    height: auto;
+    width: 100%;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .project_selection_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0 1em 0;
+  }
+  .project_selection_link_next {
+    display: flex;
+    justify-content: right;
+  }
+
+  .project_selection_link,
+  .project_selection_link_next a {
+    text-decoration: none;
+    color: var(--pink);
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+
+  footer {
+    width: 100% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p {
+    text-align: center;
+    font-size: 1.7em;
+    padding-bottom: 1em;
   }
 }
