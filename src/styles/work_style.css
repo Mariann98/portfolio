@@ -17,11 +17,12 @@ body {
   margin-right: 2em;
 }
 
-.navbar_left {
+.navbar_left a {
   font-family: mina, serif;
   text-align: center;
   font-size: 0.75em;
   color: var(--purple1);
+  text-decoration: none;
 }
 .navbar_right {
   display: none;
