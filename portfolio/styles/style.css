@@ -126,13 +126,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 35em;
+    height: 36em;
   }
 
   .logo {
     height: auto;
     width: 50%;
-    margin: 4em 0 2em 0;
+    margin: 5em 0 2em 0;
   }
   .intro p {
     font-family: futura-pt, sans-serif;
