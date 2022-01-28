@@ -586,7 +586,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
   }
 
   .logo {
@@ -615,7 +614,7 @@ footer {
     font-style: normal;
     text-align: center;
     font-size: 3.9em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
   .about_me_wrapper {
     display: flex;
