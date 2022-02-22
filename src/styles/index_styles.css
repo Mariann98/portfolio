@@ -732,7 +732,7 @@ footer {
 }
 @media (min-width: 1536px) {
   body {
-    margin-left: 8em;
+    margin-left: 7em;
     margin-right: 8em;
   }
   .navbar {
