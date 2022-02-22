@@ -496,13 +496,13 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 0.6s ease-in;
+    transition: 0.3s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  .view_button {
+  /* .view_button {
     background-color: transparent;
     display: block;
     border-radius: 2em;
@@ -521,13 +521,23 @@ footer {
     background-color: white;
     transition: all 0.5s ease-in-out;
     color: #202020;
-  }
-  .view h5 {
+  } */
+  .view h5 p{
     color: white;
     font-size: 1.2em;
     top: 30%;
     position: absolute;
     top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .view p {
+    font-size: 0.9em;
+    font-family: futura-pt, sans-serif;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -663,13 +673,13 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 0.6s ease-in;
+    transition: 0.3s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  .view_button {
+  /* .view_button {
     background-color: transparent;
     display: block;
     border-radius: 2em;
@@ -689,13 +699,23 @@ footer {
     background-color: white;
     transition: all 0.5s ease-in-out;
     color: #202020;
-  }
-  .view h5 {
+  } */
+  .view h5{
     color: white;
     font-size: 1.8em;
     top: 30%;
     position: absolute;
     top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .view p {
+    font-size: 0.9em;
+    font-family: futura-pt, sans-serif;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -711,6 +731,10 @@ footer {
   }
 }
 @media (min-width: 1536px) {
+  body {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
   .navbar {
     display: flex;
     position: sticky;
@@ -828,13 +852,13 @@ footer {
     opacity: 1;
   }
   .view {
-    transition: 0.6s ease-in;
+    transition: 0.3s ease-in;
     opacity: 0;
     display: block;
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  .view_button {
+  /* .view_button {
     background-color: transparent;
     display: block;
     border-radius: 2em;
@@ -853,13 +877,23 @@ footer {
     background-color: white;
     transition: all 0.5s ease-in-out;
     color: #202020;
-  }
+  } */
   .view h5 {
     color: white;
     font-size: 2em;
     top: 30%;
     position: absolute;
     top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .view p {
+    font-size: 1.4em;
+    font-family: futura-pt, sans-serif;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
