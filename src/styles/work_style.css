@@ -733,7 +733,7 @@ footer p {
   .project_selection_wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 2em 0 1em 0;
+    margin: 2em 0 4em 0;
   }
   .project_selection_link_next {
     display: flex;
@@ -748,7 +748,7 @@ footer p {
     font-weight: 600;
   }
 
-  footer {
+  /* footer {
     width: 100% auto;
     display: flex;
     flex-direction: column;
@@ -759,5 +759,5 @@ footer p {
     text-align: center;
     font-size: 1.7em;
     padding-bottom: 1em;
-  }
+  } */
 }
