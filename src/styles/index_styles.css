@@ -335,27 +335,23 @@ footer {
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  .view_button {
-    background-color: transparent;
-    display: block;
-    border-radius: 2em;
-    border-width: 0.25em;
-    border-color: white;
+  
+  .view h5 p{
     color: white;
-    font-size: 0.5em;
-    padding: 0.5em 1em;
+    font-size: 1.2em;
+    top: 30%;
     position: absolute;
-    top: 53%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
-  .view h5 {
-    color: white;
-    font-size: 1em;
-    top: 30%;
+  .view p {
+    font-size: 0.9em;
+    font-family: futura-pt, sans-serif;
+    padding: 0.5em 1em;
     position: absolute;
-    top: 40%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -502,26 +498,7 @@ footer {
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  /* .view_button {
-    background-color: transparent;
-    display: block;
-    border-radius: 2em;
-    border-width: 0.25em;
-    border-color: white;
-    color: white;
-    font-size: 0.75em;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view_button:hover {
-    background-color: white;
-    transition: all 0.5s ease-in-out;
-    color: #202020;
-  } */
+ 
   .view h5 p{
     color: white;
     font-size: 1.2em;
