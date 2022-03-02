@@ -347,6 +347,7 @@ footer p {
   }
   .work_wrapper_main {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
