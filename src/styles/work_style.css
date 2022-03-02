@@ -104,9 +104,13 @@ ol {
 
 .project_selection_link a {
   text-decoration: none;
-  color: var(--purple1);
+  color: white;
   font-size: 1.1em;
   font-weight: 600;
+}
+.project_selection_link a:hover {
+  color: var(--purple1);
+  transition: 0.5s;
 }
 .xd_link {
   color: white;
