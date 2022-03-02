@@ -55,7 +55,10 @@ h5 {
 p {
   font-size: 1em;
 }
-
+ol {
+  font-size: 1em;
+  margin-left: 1em;
+}
 .work_wrapper_main {
   display: flex;
   flex-direction: column;
@@ -334,6 +337,10 @@ footer p {
   p {
     font-size: 1.1em;
   }
+  ol {
+    font-size: 1.1em;
+    margin-left: 1em;
+  }
   .work_wrapper_main {
     display: flex;
     align-items: center;
@@ -430,6 +437,10 @@ footer p {
   }
   p {
     font-size: 1.3em;
+  }
+  ol {
+    font-size: 1.3em;
+    margin-left: 1em;
   }
   .work_wrapper_main {
     display: flex;
@@ -571,6 +582,10 @@ footer p {
   p {
     font-size: 1.3em;
   }
+  ol {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
   .work_wrapper_main {
     display: flex;
     flex-direction: row;
@@ -700,6 +715,10 @@ footer p {
   }
   p {
     font-size: 1.7em;
+  }
+  ol {
+    font-size: 1.7em;
+    margin-left: 1em;
   }
   .work_wrapper_main {
     display: flex;
