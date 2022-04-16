@@ -233,26 +233,7 @@ footer {
     text-align: center;
     font-family: novecento-sans-wide, sans-serif;
   }
-  .view h5 {
-    color: rgb(231, 223, 223);
-    font-size: 1em;
-    top: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view p {
-    font-size: 0.7em;
-    font-family: futura-pt, sans-serif;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+
   footer {
     width: 100% auto;
   }
