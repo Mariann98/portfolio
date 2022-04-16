@@ -50,7 +50,7 @@ h4 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 h5 {
   display: flex;
@@ -58,8 +58,8 @@ h5 {
   color: var(--purple1);
   margin-top: 0.1em;
   margin-bottom: 0.5em;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
 }
 h6 {
   display: flex;
@@ -67,14 +67,9 @@ h6 {
   color: var(--purple1);
   margin-top: 1em;
   justify-content: left;
-  text-align: center;
+  text-align: left;
 }
-.prso {
-  font-size: 1.3em;
-  color: var(--purple1);
-  margin-top: 1em;
-  justify-content: left;
-}
+
 p {
   font-size: 1em;
 }
@@ -114,7 +109,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 1em;
 }
 .work_wrapper_right {
   display: flex;
