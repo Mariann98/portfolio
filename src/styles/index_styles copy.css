@@ -286,10 +286,6 @@ footer {
     color: var(--purple1);
     transition: 0.5s;
   }
-  .navbar_left a:hover {
-    color: var(--purple1);
-    transition: 0.5s;
-  }
   .intro {
     display: flex;
     flex-direction: row;
@@ -455,10 +451,6 @@ footer {
     color: var(--purple1);
     transition: 0.5s;
   }
-  .navbar_left a:hover {
-    color: var(--purple1);
-    transition: 0.5s;
-  }
   .intro {
     display: flex;
     flex-direction: row;
@@ -466,10 +458,7 @@ footer {
     justify-content: center;
     height: 100vh;
   }
-  .logo1 {
-    margin-top: 1em;
-    height: 2em;
-  }
+
   .logo {
     height: auto;
     width: 35%;
@@ -480,7 +469,7 @@ footer {
     font-style: normal;
     font-size: 1.6em;
     text-align: left;
-    max-width: 16em;
+    max-width: 17em;
     margin-left: 2em;
   }
 
@@ -592,14 +581,13 @@ footer {
     z-index: 5;
     background-color: var(--dark1);
   }
-  /*.navbar_left {
+  .navbar_left {
     font-family: mina, serif;
     text-align: left;
     margin-top: 1em;
     font-size: 0.75em;
     color: var(--purple1);
   }
-  */
   .navbar_right {
     display: block;
   }
@@ -609,7 +597,7 @@ footer {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.2em;
-    margin: 3em;
+    margin: 1em;
   }
   ul {
     margin-top: 1em;
@@ -619,10 +607,6 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--purple1);
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
     color: var(--purple1);
     transition: 0.5s;
   }
@@ -643,7 +627,7 @@ footer {
     font-style: normal;
     font-size: 2em;
     text-align: left;
-    max-width: 16.5em;
+    max-width: 17em;
   }
 
   .color {
@@ -803,10 +787,6 @@ footer {
     list-style: none;
   }
   .navbar_right a:hover {
-    color: var(--purple1);
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
     color: var(--purple1);
     transition: 0.5s;
   }
