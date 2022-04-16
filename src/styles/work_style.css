@@ -243,6 +243,12 @@ footer p {
     width: 20%;
     margin-top: 0.5em;
   }
+  .prso {
+    font-size: 1.3em;
+    color: var(--purple1);
+    margin-bottom: 0.1em;
+    justify-content: left;
+  }
   .work_wrapper_main {
     display: flex;
     flex-direction: row;
