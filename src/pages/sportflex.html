@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SportFlex</title>
     <link href="/src/styles/work_style.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="../../public/pictures/logo1.png" />
+    <link rel="shortcut icon" href="../../public/pictures/logo.png" />
   </head>
 
   <body>
-    <div class="navbar">
+       <div class="navbar">
       <div class="navbar_left">
-        <a href="/index.html#home"><h2 class="name">Mariann Alber</h2></a>
+        <ul class="navbar-list">
+          <li><a href="/index.html#home">HOME</a></li>
+          <li><a href="/index.html#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="navbar_mid">
+        <a href="/index.html#home">
+        <img class="logo1" src="/public/pictures/MA.png" alt="logo" /></a>
       </div>
       <div class="navbar_right">
         <ul class="navbar-list">
-          <li><a href="/index.html#home">Home</a></li>
-          <li><a href="/index.html#about_me">About me</a></li>
-          <li><a href="/index.html#portfolio">Portfolio</a></li>
-          <li><a href="/index.html#contact">Contact</a></li>
+          <li><a href="/index.html#about">ABOUT</a></li>
+          <li><a href="/index.html#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -26,7 +31,6 @@
     <main>
       <div class="work">
         <h1 id="sportflex">SportFlex</h1>
-        <h5>My role: UI Designer<br />Project type: personal</h5>
         <div class="work_wrapper_main">
           <div class="work_wrapper_main_left">
             <p id="introduction">
@@ -40,17 +44,21 @@
             <img src="../../public/pictures/sport-logo.png" alt="icon"  />
           </div>
         </div>
-        <div class="work_wrapper">
-          <div class="work_wrapper_problem">
-          <h4>Problem statement</h4>
+       <div class="wrapper">
+          <h4 class="prso">Problem: Unable to work-out with friends</h4>
           <p>
-            Working out is a social activity, but due to the current situation in the world, it is
-            not possible. We want to ease the problem of not being able to do sports together or in
+            Working out can be a fun social activity, but due to the current situation in the world,
+            it is not possible.
+          </p>
+        </div>
+        <div class="wrapper">
+          <h4 class="prso">Solution: Work-out challenge app</h4>
+          <p>
+            We want to ease the problem of not being able to do sports together or in
             the way we're used to. The app simplifies the social experience of sport.
           </p>
         </div>
-      </div>
-      <div class="work_wrapper_reverse">
+      <div class="work_wrapper">
           <div class="work_wrapper_left">
             <h4>User persona</h4>
             <p>
@@ -81,7 +89,7 @@
       </div>
       <div class="work_wrapper_reverse">
         <div class="work_wrapper_left">
-          <h4>Motivate your friends & yourself</h4>
+          <h4 class="reverse_text">Motivate your friends & yourself</h4>
           <p>
             Check out your previous workouts, set a goal for the week to keep you motivated, and
             complete challenges made by your friends.
@@ -91,21 +99,21 @@
           <img src="../../public/pictures/sportflex_mock1.png" class="pictures" alt="mockup" />
         </div>
       </div>
-      <div class="work_wrapper">
-        <div class="work_wrapper_left">
-          <h4>Track workouts & challenge friends</h4>
+      <div class="work_wrapper_reverse_1"> 
+      <div class="work_wrapper_left_reverse">
+          <img src="../../public/pictures/sportflex_mock2.png" class="pictures" alt="mockup" />
+        </div>  <div class="work_wrapper_right_reverse">
+          <h4 class="reverse_text">Track workouts & challenge friends</h4>
           <p>
             Keep an eye on your workouts and challenge your best buddies to do the same exercises as
             you.
           </p>
         </div>
-        <div class="work_wrapper_right">
-          <img src="../../public/pictures/sportflex_mock2.png" class="pictures" alt="mockup" />
-        </div>
+       
       </div>
       <div class="work_wrapper_reverse">
         <div class="work_wrapper_left">
-          <h4>Friends = challenges</h4>
+          <h4 class="reverse_text">Friends = challenges</h4>
           <p>
             Have an overview of your friends and challenges. By simply clicking on the trophy, you
             can motivate your friends to be active. Maybe checking your friends results can boost
@@ -116,19 +124,20 @@
           <img src="../../public/pictures/sportflex_mock3.png" class="pictures" alt="mockup" />
         </div>
       </div>
-      <div class="work_wrapper">
-        <div class="work_wrapper_left">
-          <h4>Set a weekly goal for motivation</h4>
-          <p>Set your weekly goal to boost your motivation and build healthy daily habits.</p>
-        </div>
-        <div class="work_wrapper_right">
+      <div class="work_wrapper_reverse_1">
+        
+        <div class="work_wrapper_left_reverse">
           <img src="../../public/pictures/sportflex_mock4.png" class="pictures" alt="mockup" />
+        </div>
+        <div class="work_wrapper_right_reverse">
+          <h4 class="reverse_text">Set a weekly goal for motivation</h4>
+          <p>Set your weekly goal to boost your motivation and build healthy daily habits.</p>
         </div>
       </div>
 
        <div class="project_selection_wrapper">
           <div class="project_selection_link_previous">
-            <a href="sportflex.html">
+            <a href="interactiondesign.html">
               <h3 class="project_selection"></h3>
             </a>
           </div>

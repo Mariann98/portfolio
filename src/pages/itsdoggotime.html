@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>It's doggo time</title>
     <link href="/src/styles/work_style.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="../../public/pictures/logo1.png" />
+    <link rel="shortcut icon" href="../../public/pictures/logo.png" />
   </head>
   <body>
     <div class="navbar">
       <div class="navbar_left">
-        <a href="/index.html#home"><h2 class="name">Mariann Alber</h2></a>
+        <ul class="navbar-list">
+          <li><a href="/index.html#home">HOME</a></li>
+          <li><a href="/index.html#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="navbar_mid">
+        <a href="/index.html#home">
+          <img class="logo1" src="/public/pictures/MA.png" alt="logo"
+        /></a>
       </div>
       <div class="navbar_right">
         <ul class="navbar-list">
-          <li><a href="/index.html#home">Home</a></li>
-          <li><a href="/index.html#about_me">About me</a></li>
-          <li><a href="/index.html#portfolio">Portfolio</a></li>
-          <li><a href="/index.html#contact">Contact</a></li>
+          <li><a href="/index.html#about">ABOUT</a></li>
+          <li><a href="/index.html#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -25,7 +31,6 @@
     <main>
       <div class="work">
         <h1 id="itsdoggotime">It's doggo time</h1>
-        <h5>My role: UX & UI Designer<br />Project type: personal</h5>
         <div class="work_wrapper_main">
           <div class="work_wrapper_main_left">
             <p id="introduction">
@@ -38,16 +43,22 @@
             <img src="../../public/pictures/doggoicon.png" alt="icon" />
           </div>
         </div>
-        <div class="problem">
-          <h4>Problem statement</h4>
+        <div class="wrapper">
+          <h4 class="prso">Problem: Chatting too much about dogs excrements</h4>
           <p>
             Having to communicate about a dog's excrement and food can cause some annoyance at one
-            point. I want to solve this problem by creating a straightforward app to log all
+            point.I want to solve this problem by creating a straightforward app to log all
             necessary data about the doggo.
           </p>
         </div>
-
-        <div class="work_wrapper_reverse">
+        <div class="wrapper">
+          <h4 class="prso">Solution: Dog excrement and food data monitoring app</h4>
+          <p>
+            I want to solve this problem by creating a straightforward app where each family member
+            can log all necessary data about the doggo and view it.
+          </p>
+        </div>
+        <div class="work_wrapper">
           <div class="work_wrapper_left">
             <h4>How did this idea born?</h4>
             <p>
@@ -80,7 +91,7 @@
             <img src="../../public/pictures/idt mockup4.png" class="pictures" alt="low-fi" />
           </div>
         </div>
-        <div class="work_wrapper_reverse">
+        <div class="work_wrapper">
           <div class="work_wrapper_left">
             <h4>Doggo groups for family members</h4>
             <p>

@@ -18,15 +18,11 @@ body {
   margin-left: 2em;
   margin-right: 2em;
 }
-/*
-.navbar_left {
-  font-family: mina, serif;
-  text-align: center;
-  font-size: 0.75em;
-  color: var(--purple1);
-}
-*/
+
 .navbar_right {
+  display: none;
+}
+.navbar_left {
   display: none;
 }
 .intro {
@@ -34,11 +30,20 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .logo {
   height: auto;
-  width: 80%;
-  margin: 2em;
+  width: 50%;
+  margin: 5em 0 2em 0;
+}
+.logo1 {
+  margin-top: 1em;
+  height: auto;
+  width: 10%;
+}
+.navbar_mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .intro p {
   font-family: futura-pt, sans-serif;
@@ -46,7 +51,7 @@ body {
   font-style: normal;
   font-size: 1.5em;
   text-align: center;
-  max-width: 17em;
+  max-width: 15em;
   margin-bottom: 2em;
 }
 
@@ -115,13 +120,6 @@ footer {
 }
 
 @media (min-width: 360px) {
-  /* .navbar_left {
-    font-family: mina, serif;
-    text-align: center;
-    font-size: 1em;
-    color: var(--purple1);
-  }
-*/
   .intro {
     display: flex;
     flex-direction: column;
@@ -256,24 +254,30 @@ footer {
     z-index: 5;
     background-color: var(--dark1);
   }
-  /*.navbar_left {
-    font-family: mina, serif;
-    text-align: left;
-    margin-top: 1em;
-    font-size: 0.75em;
-    color: var(--purple1);
-  }
-  */
+
   .navbar_right {
     display: block;
+  }
+  .navbar_left {
+    display: block;
+  }
+  .logo1 {
+    margin-top: 1em;
+    height: auto;
+    width: 20%;
+  }
+  .navbar_mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   li a {
     color: white;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.08em;
-    margin: 1em;
+    font-size: 0.9em;
+    margin: 1.1em;
   }
   ul {
     margin-top: 1em;
@@ -309,7 +313,7 @@ footer {
     font-style: normal;
     font-size: 1.6em;
     text-align: left;
-    max-width: 17em;
+    max-width: 14em;
     margin-bottom: 0;
   }
 
@@ -425,23 +429,13 @@ footer {
     z-index: 5;
     background-color: var(--dark1);
   }
-  /*.navbar_left {
-    font-family: mina, serif;
-    text-align: left;
-    margin-top: 1em;
-    font-size: 0.75em;
-    color: var(--purple1);
-  }
-  */
-  .navbar_right {
-    display: block;
-  }
+
   li a {
     color: white;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.3em;
+    font-size: 0.9em;
     margin: 1em;
   }
   ul {
@@ -468,7 +462,7 @@ footer {
   }
   .logo1 {
     margin-top: 1em;
-    height: 2em;
+    height: auto;
   }
   .logo {
     height: auto;
