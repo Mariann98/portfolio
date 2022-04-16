@@ -88,7 +88,26 @@ h1 {
   margin-bottom: 3em;
   font-size: 1em;
 }
-
+.view h5 {
+  color: white;
+  font-size: 0.8em;
+  top: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.view p {
+  font-size: 0.6em;
+  font-family: futura-pt, sans-serif;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 .portfolio {
   display: flex;
   flex-direction: column;
