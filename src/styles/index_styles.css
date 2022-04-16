@@ -548,7 +548,7 @@ footer {
 
   .view h5 p {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     top: 30%;
     position: absolute;
     top: 40%;
@@ -557,7 +557,7 @@ footer {
     -ms-transform: translate(-50%, -50%);
   }
   .view p {
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: futura-pt, sans-serif;
     padding: 0.5em 1em;
     position: absolute;
