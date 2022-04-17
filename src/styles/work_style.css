@@ -227,7 +227,7 @@ footer p {
     color: var(--purple1);
     margin-top: 1em;
     margin-bottom: 0.5em;
-    justify-content: center;
+    justify-content: left;
   }
 
   h5 {

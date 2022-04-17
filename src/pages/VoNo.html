@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoNo memo</title>
+    <link href="/src/styles/work_style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../public/pictures/logo.png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar_left">
+        <ul class="navbar-list">
+          <li><a href="/index.html#home">HOME</a></li>
+          <li><a href="/index.html#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="navbar_mid">
+        <a href="/index.html#home">
+          <img class="logo1" src="/public/pictures/MA.png" alt="logo"
+        /></a>
+      </div>
+      <div class="navbar_right">
+        <ul class="navbar-list">
+          <li><a href="/index.html#about">ABOUT</a></li>
+          <li><a href="/index.html#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="work">
+        <h1 id="vono">vono memo app</h1>
+
+        <div class="wrapper">
+          <div class="work_wrapper">
+            <p id="introduction">
+              I had the opportunity to improve the features of the VoNo memo app, where a user can
+              collect and send memos in the fastest way. Throughout this project, I did research,
+              figured out the improvements needed in the app, and redesigned the homepage.
+            </p>
+          </div>
+        </div>
+
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Getting to know the app</h4>
+            <p>
+              I started my process by discovering the functions of the VoNo app. I wanted to go
+              through it without prior knowledge to find out if everything is understandable to the
+              user who is new to the app like me. After writing down some notes on what is clear and
+              what needs some improvements, I visited the VoNo website. This gave me a clear
+              overview of what the application is about. Then I wanted to get to know the customer
+              group, so I went through Google Play reviews to find some intel on the product. Before
+              I started to prototype, I wanted to make sure I am not biased regarding the
+              improvements I would like to make, so I asked my fellow peers to use the app and tell
+              me about their experiences. After the testing, I made my final list of improvements to
+              the app.
+              <br />
+            </p>
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>List of improvements</h4>
+            <p>
+              After my research I concluded that the following aspects could be improved: <br />From
+              the UI part, I felt that everything looked nice and seemed functional, but I wanted to
+              make the icons more consistent and solid in order to improve the app's look. Other
+              than that, the client is the king and I work according to their taste preference.<br />
+              From the UX perspective I have some improvements:
+            </p>
+            <ol>
+              <li>
+                The recording starts immediately when opening the app. This can be good or bad. On
+                one hand, when for example, driving a car, it is nice to have that functionality,
+                but when the user is already finding the time to open it, I think they have time to
+                tap the record button too. (Sidenote: the driver should not use the phone anyways
+                when driving). During my research, I found out that this functionality is not
+                convenient and is disturbing since the user would have to tap on the Discard button
+                (+ discard memo) to make it stop.
+              </li>
+              <li>
+                According to the information I received about VoNo, the users use mostly the
+                voice-to-text function, so it should be first on the list. As the percentage shows,
+                “reminder” and “share” are not as popular, so these should either be removed (and
+                used only on the “memo overview” page) or hidden. The user shouldn’t be distracted
+                by those features since the main point of this application is to send a memo fast to
+                yourself or someone else.
+              </li>
+              <li>
+                I am interested to know what the blue line on top of the screen is for, and for what
+                stands the 50/10 number. I understand that the first number decreases because the
+                user has 50 memos without the Pro version, but what does the 10 stand for? And I
+                guess the blue bar should also increase/decrease depending on the number of memos
+                left. (This started working after I had only 10 memos left).
+              </li>
+              <li>
+                When first registering the account, maybe it would be nice to get a pop-up
+                indicating that the user has 50 free memos and lead them to the page where they get
+                more information about it. 5. I like that there is an option to change the order of
+                the “send” and “save” buttons, but they could have a different look, so the user
+                could recognize the correct button immediately without thinking and reading.
+              </li>
+              <li>
+                On the “voice” page, the share button does not function when nothing is recorded.
+                This could be removed and have it only on the page where the recording has stopped,
+                would be enough.
+              </li>
+              <li>
+                It would be more coinvent to have the “memo overview” (or the “folder”) icon on the
+                right side of the screen. Firstly, for right-handed people (90% of the world's
+                population) it is easier to reach it, but also the 50/10 would be more
+                understandable and indicated clearly in the memos.
+              </li>
+              <li>
+                When first opening the app, there is a “Get started” button and usually the user can
+                enter their information. Here, however, this step is skipped, and the user is
+                immediately in the app. Does this mean, that after I enter my email as a recipient I
+                am automatically registered/logged in and in the future can sign in with my Google,
+                etc. account? In that case, the “email and password” login does not have a function.
+              </li>
+              <li>
+                On the login page, I cannot go back to the “Get started” page if I accidentally have
+                tapped on the "login" button as a first-time user. I would have to uninstall and
+                then install the app again.
+              </li>
+              <li>
+                It would be nice to ask the user if they want their first recipient’s email address
+                to be the one, they registered with. Usually, the account you register is the
+                primary one anyways, and this would make the process faster for the user, instead of
+                double asking for their email.
+              </li>
+            </ol>
+          </div>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/storyboardid.png" class="pictures" alt="mockup" />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Step 3 Hierarchical Task Diagrams</h4>
+            <p>
+              Our group made four hierarchical task diagrams that describe four main tasks that were
+              filtered from the steps taken before.
+            </p>
+          </div>
+          <p>
+            Buying tickets is the general functionality of the cinema website. This Hierarchical
+            Task Diagram illustrates the step-by-step process of buying the tickets from the moment
+            a user lands on the website to the moment of getting tickets.
+          </p>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id1.jpg" class="pictures" alt="mockup" />
+          </div>
+
+          <p>
+            Voting for the upcoming international movie week is one of the main special features of
+            the Bios website. This Hierarchical Task Diagram illustrates the process of voting for
+            the country the user wants to be in on international movie week. The process is starting
+            on the home page and ends on the voting form.
+          </p>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id2.jpg" class="pictures" alt="mockup" />
+          </div>
+          <p>
+            Creating an account allows the user to buy tickets faster and easier. It is also one of
+            the general functions of the website. This Hierarchical Task Diagram shows the creating
+            account process where the user can enter their country of origin in order to receive
+            information about upcoming international movie weeks.
+          </p>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id3.jpg" class="pictures" alt="mockup" />
+          </div>
+
+          <p>
+            Pre-ordering snacks is a special option for the international movie week. The user can
+            choose the snacks that are made exclusively for the international week, considering the
+            culture and cuisine of the country that’s currently on the international week. This
+            Hierarchical Task Diagram illustrates how the user can pre-order their snacks while
+            purchasing a ticket to an international movie.
+          </p>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id4.jpg" class="pictures" alt="mockup" />
+          </div>
+        </div>
+
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Value proposition</h4>
+            <p>
+              For digital natives, BIOS cinema offers international movies that give the
+              internationals a chance to see a movie from different countries, including their own
+              by screening foreign films every first week of the month so they feel a sense of
+              intercultural inclusiveness in a foreign country. This idea originated from our
+              client’s wish of being inclusive toward people with different cultural backgrounds
+              since roughly 20% of the Netherlands population is international. For this reason,
+              BIOS cinema will stand out, by having a community where internationals are accepted
+              and included. Also, natives who are curious can explore more cultural backgrounds and
+              differences.
+            </p>
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Scenarios and Requirements</h4>
+            <p>
+              In week 4, my group had to create two different types of scenarios: 1) Concrete
+              scenario and 2) Use Case Description. These helped us evaluate our concept, describe
+              concrete requirements, explore possible features, and include ideas about the
+              interface. After gathering user needs and performing the first ideation session, it
+              was time to assemble requirements that our intended interactive products should do to
+              satisfy user needs and business requirements. For creating those we used the “Moscow”
+              method. This followed up with card-sorting in week 5 and analyzing the results by
+              creating a taxonomy method.
+            </p>
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Step 7 Flowchart</h4>
+            <p>
+              The flowchart illustrates the sequence of actions to book a ticket for the French
+              movie from the International Movie Week. The flowcharts start from the home page,
+              where the user clicks on the banner with French Movie Week. From that page, the user
+              clicks on the specific French movie and goes through the booking process, by selecting
+              the location of the cinema and showtime. Before the user proceeds with the booking,
+              the system asks the user to log in (with several options) or continue as a guest. When
+              the user completes the booking the system asks them to pay and suggests different
+              payment methods. The flowchart ends when the user receives the tickets in their email.
+            </p>
+          </div>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id8.jpg" class="pictures" alt="mockup" />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Step 8 Sitemap</h4>
+            <p>
+              The site map illustrated the structure of the Bios cinema website. There are two menus
+              on the home page: the main menu and the secondary menu. The main menu consists of the
+              popular functionalities that the regular user is looking for on the website. Whereas
+              the secondary menu has information for those who are interested in the Bios vacancies
+              or would like to read the privacy statement. Even though the classic site map has only
+              pages, our team decided to showcase other elements of the website as links, filters,
+              important buttons, and so on. We defined the type of element with the color.
+            </p>
+          </div>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/id9.jpg" class="pictures" alt="mockup" />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Step 9 Wireframes</h4>
+            <p>
+              The site map illustrated the structure of the Bios cinema website. There are two menus
+              on the home page: the main menu and the secondary menu. The main menu consists of the
+              popular functionalities that the regular user is looking for on the website. Whereas
+              the secondary menu has information for those who are interested in the Bios vacancies
+              or would like to read the privacy statement. Even though the classic site map has only
+              pages, our team decided to showcase other elements of the website as links, filters,
+              important buttons, and so on. We defined the type of element with the color.
+            </p>
+          </div>
+          <div class="work_wrapper_right">
+            <img
+              src="../../public/pictures/International week (2).png"
+              class="pictures"
+              alt="mockup"
+            />
+          </div>
+          <div class="work_wrapper_right">
+            <img
+              src="../../public/pictures/International week country specific F.png"
+              class="pictures"
+              alt="mockup"
+            />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <p class="link">Check out the website</p>
+            <a
+              class="xd_link"
+              href="https://www.figma.com/proto/qxdfnc90dzNvBUBGaaF6hn/ID-wireframes?node-id=59%3A170&scaling=scale-down&page-id=0%3A1&starting-point-node-id=59%3A170&show-proto-sidebar=1"
+              >Bios Cinema Figma link</a
+            >
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Skills acquired</h4>
+            <ol>
+              <li>
+                Translating business goals and user needs into a user-centered system structure that
+                facilitates a fluent user-system interaction.
+              </li>
+              <li>
+                Correctly utilizing given interaction design techniques to create, show and
+                communicate an interaction design.
+              </li>
+              <li>
+                Describing an interaction design process in a written report that shows the cohesion
+                between the different steps in the design process.
+              </li>
+              <li>
+                Presenting arguments for the value of my interaction design concept in a written
+                report that conveys the coherence between problem definition and the end result.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="project_selection_wrapper">
+        <div class="project_selection_link">
+          <a href="rijksstudio.html">
+            <h3 class="project_selection">Previous</h3>
+          </a>
+        </div>
+        <div class="project_selection_link">
+          <a href="VoNo.html">
+            <h3 class="project_selection">Next</h3>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
