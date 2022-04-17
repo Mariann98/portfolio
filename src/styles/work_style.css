@@ -421,7 +421,7 @@ footer p {
     color: var(--purple1);
     margin-top: 1em;
     margin-bottom: 0.5em;
-    justify-content: center;
+    justify-content: left;
   }
   h6 {
     display: flex;
@@ -566,7 +566,7 @@ footer p {
     color: var(--purple1);
     margin-top: 1em;
     margin-bottom: 0.5em;
-    justify-content: center;
+    justify-content: left;
   }
   .prso {
     font-size: 1.6em;
@@ -726,8 +726,7 @@ footer p {
     font-size: 2em;
     color: var(--purple1);
     margin-top: 1em;
-    margin-bottom: 1em;
-    justify-content: center;
+    justify-content: left;
   }
   .prso {
     font-size: 1.8em;
@@ -837,14 +836,6 @@ footer p {
     z-index: 5;
     background-color: var(--dark1);
   }
-  /* .navbar_left {
-    font-family: mina, serif;
-    text-align: left;
-    margin-top: 1em;
-    font-size: 1em;
-    color: var(--purple1);
-  }
-*/
   li a {
     color: white;
     text-align: center;
@@ -907,7 +898,7 @@ footer p {
 
   .work_wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
