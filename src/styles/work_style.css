@@ -706,12 +706,7 @@ footer p {
     justify-content: flex-end;
     list-style: none;
   }
-  .navbar_right a:hover {
-    color: var(--purple1);
-    transition: 0.5s;
-  }
-
-  h1 {
+  . h1 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -836,13 +831,23 @@ footer p {
     z-index: 5;
     background-color: var(--dark1);
   }
+  .navbar_right {
+    display: block;
+  }
+  .navbar_left {
+    display: block;
+  }
+  .navbar_mid {
+    display: flex;
+    justify-content: center;
+  }
   li a {
     color: white;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.5em;
-    margin: 1em;
+    font-size: 2em;
+    margin: 3em;
   }
   ul {
     margin-top: 1em;
@@ -854,6 +859,15 @@ footer p {
   .navbar_right a:hover {
     color: var(--purple1);
     transition: 0.5s;
+  }
+  .navbar_left a:hover {
+    color: var(--purple1);
+    transition: 0.5s;
+  }
+  .logo1 {
+    margin-top: 1em;
+    height: auto;
+    width: 20%;
   }
 
   h1 {
