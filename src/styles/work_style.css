@@ -78,7 +78,7 @@ ol {
   margin-left: 1em;
 }
 img {
-  border-radius: 5%;
+  border-radius: 3%;
 }
 .pic {
   height: auto;
@@ -306,7 +306,7 @@ footer p {
   img {
     height: auto;
     width: 50%;
-    border-radius: 5%;
+    border-radius: 3%;
   }
 
   .project_selection_wrapper {
@@ -781,7 +781,7 @@ footer p {
     width: 100%;
   }
   img {
-    border-radius: 5%;
+    border-radius: 3%;
   }
   .work_wrapper_left {
     height: auto;
