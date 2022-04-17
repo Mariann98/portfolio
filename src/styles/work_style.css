@@ -879,6 +879,18 @@ footer p {
     margin-bottom: 1em;
     margin-top: 1em;
   }
+  .pictures {
+    height: auto;
+    width: 60%;
+  }
+  .pic {
+    height: auto;
+    width: 60%;
+  }
+  img {
+    height: auto;
+    width: 50%;
+  }
 
   h4 {
     display: flex;
