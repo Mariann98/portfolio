@@ -773,13 +773,6 @@ footer {
     z-index: 5;
     background-color: var(--dark1);
   }
-  .navbar_left {
-    font-family: mina, serif;
-    text-align: left;
-    margin-top: 1em;
-    font-size: 1em;
-    color: var(--purple1);
-  }
 
   li a {
     color: white;
@@ -787,7 +780,7 @@ footer {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.5em;
-    margin: 1em;
+    margin: 3em;
   }
   ul {
     margin-top: 1em;
