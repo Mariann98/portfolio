@@ -83,7 +83,7 @@ h1 {
   width: 80%;
   margin: 2em;
 }
-.about_me p {
+.about p {
   max-width: 20em;
   margin-bottom: 3em;
   font-size: 1em;
@@ -190,7 +190,7 @@ footer {
     display: flex;
     justify-content: center;
   }
-  .about_me p {
+  .about p {
     max-width: 20em;
     margin-bottom: 3em;
     font-size: 1.25em;
@@ -344,7 +344,7 @@ footer {
     height: auto;
     width: 90%;
   }
-  .about_me p {
+  .about p {
     max-width: 40em;
     font-size: 1em;
   }
@@ -505,7 +505,7 @@ footer {
     height: auto;
     width: 90%;
   }
-  .about_me p {
+  .aboutp {
     max-width: 30em;
     font-size: 1.2em;
   }
@@ -666,7 +666,7 @@ footer {
     width: 100%;
     margin: 1em;
   }
-  .about_me p {
+  .about p {
     max-width: 40em;
     font-size: 1.4em;
     margin: 1em;
@@ -844,7 +844,7 @@ footer {
     height: auto;
     width: 90%;
   }
-  .about_me p {
+  .about p {
     max-width: 30em;
     font-size: 2.1em;
   }
